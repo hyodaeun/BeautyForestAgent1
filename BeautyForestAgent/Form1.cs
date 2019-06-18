@@ -15,5 +15,34 @@ namespace BeautyForestAgent
         {
             InitializeComponent();
         }
+
+        public void VisibleChange(bool visible)
+        {
+            this.Visible = visible;
+            this.btnTray.Visible = !visible;
+        }
+        private void BtnTray_Click(object sender, EventArgs e)
+        {
+            VisibleChange(false);
+        }
+
+        private void BtnTray_Click_1(object sender, EventArgs e)
+        {
+            VisibleChange(true);
+        }
+
+        private void 폼보이기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VisibleChange(true);
+
+        }
+
+        private void 종료ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.btnTray.Visible = false;
+            Application.ExitThread();
+        }
+
+       
     }
 }
