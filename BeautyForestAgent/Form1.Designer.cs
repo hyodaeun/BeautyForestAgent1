@@ -38,44 +38,47 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BeautyForestAgent.Properties.Resources.demo;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 10);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(839, 299);
+            this.pictureBox1.Size = new System.Drawing.Size(734, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(15, 322);
+            this.label1.Location = new System.Drawing.Point(13, 258);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 18);
+            this.label1.Size = new System.Drawing.Size(466, 14);
             this.label1.TabIndex = 1;
-            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.1 by [학번] [이름]";
+            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.1 by [3615] [정효은]";
             // 
             // btnTray
             // 
-            this.btnTray.Location = new System.Drawing.Point(802, 317);
+            this.btnTray.Location = new System.Drawing.Point(702, 254);
+            this.btnTray.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTray.Name = "btnTray";
-            this.btnTray.Size = new System.Drawing.Size(34, 23);
+            this.btnTray.Size = new System.Drawing.Size(30, 18);
             this.btnTray.TabIndex = 2;
             this.btnTray.Text = "▼";
             this.btnTray.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(848, 349);
+            this.ClientSize = new System.Drawing.Size(742, 279);
             this.Controls.Add(this.btnTray);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Beauty Forest Agent v0.1 by [학번] [이름]";
+            this.Text = "Beauty Forest Agent v0.1 by [3615] [정효은]";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
